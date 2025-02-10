@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="">
+        <!--QUESTION 1-->
+        <!--create a login form-->
+        <h3 style="color: rgb(226, 43, 116);">simple login form with fields for username and password</h3>
+        <label for="username">Username : </label>
+        <input type="text" name="username" id="username"  placeholder="username"required/><br><br>
+        <label for="password">Password : </label>
+        <input type="password" name="pasword" id="password" required/><br>
+        <button>submit</button>
+        <br>
+        <br>
+
+        <!--Question 2-->
+        <!--create a form using input text,email,password and date picker-->
+        <h3 style="color: rgb(226, 43, 116);">form with input types for text, email, password, and a date picker</h3>
+        <label for="username">Username : </label>
+        <input type="text" name="username" id="username" placeholder="username" required/><br><br>
+        <label for="emailid">Email ID : </label>
+        <input type="email" name="emailID" id="emailid"  placeholder="example@gmail.com" required/><br><br>
+        <label for="password">Password : </label>
+        <input type="password" name="pasword" id="password" required/><br><br>
+        <label for="date">Date : </label>
+        <input type="date" name="date" id="date"><br>
+        <button>submit</button>
+        <br>
+        <br>
+
+        <!--Question 6-->
+        <!--Drop down list-->
+        <h3 style="color: rgb(226, 43, 116);">dropdown list of three items</h3>
+        <label for="countries">Countries : </label>
+        <select name="countries" id="countries">
+            <option value="india">INDIA</option>
+            <option value="china">CHINA</option>
+            <option value="usa">USA</option>
+        </select>
+        <br>
+        <br>
+            
+        <!--Question 10-->
+        <!--RADIO -->
+        <h3 style="color: rgb(226, 43, 116);">feedback rating (1 to 5 stars) using radio buttons</h3>
+        <label for="feedback">Feedback Rating : </label><br>
+        <input type="radio" name="feedback" id="feedback" value="1"/>
+        <label for="1">*</label><br>
+        <input type="radio" name="feedback" id="feedback" value="2"/>
+        <label for="2"></label><br>
+        <input type="radio" name="feedback" id="feedback" value="3"/>
+        <label for="3">*</label><br>
+        <input type="radio" name="feedback" id="feedback" value="4"/>
+        <label for="4"></label><br>
+        <input type="radio" name="feedback" id="feedback" value="5"/>
+        <label for="5">*</label><br>
+        <br>
+
+        <!--QUSETION 9-->
+        <!--CHECKBOX-->
+        <h3 style="color: rgb(226, 43, 116);">checkboxes to select your favorite programming languages</h3>
+        <label for="programming">Programming language : </label><br>
+        <label>Javascript</label>
+        <input type="checkbox" name="programming" id="programming" value="JavaScript"><br>
+        <label>Python</label>
+        <input type="checkbox" name="programming" id="programming" value="Python"><br>
+        <label>Java</label>
+        <input type="checkbox" name="programming" id="programming" value="Java"><br>
+        <label>C++</label>
+        <input type="checkbox" name="programming" id="programming" value="C++"><br>
+        <br>
+
+
+    </form>
+    <br>
+
+    <!--Question 3-->
+    <!--Table tags-->
+    <h3 style="color: rgb(226, 43, 116);">table with 3 rows and 4 columns</h3>
+    <table border="1">
+        <tr>
+            <th>column1</th>
+            <th>column2</th>
+            <th>column3</th>
+            <th>column4</th>
+        </tr>
+        <tr>
+            <td>data1</td>
+            <td>data2</td>
+            <td>data3</td>
+            <td>data4</td>
+        </tr>
+        <tr>
+            <td>data5</td>
+            <td>data6</td>
+            <td>data7</td>
+            <td>data8</td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>
